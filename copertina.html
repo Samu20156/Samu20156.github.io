@@ -1,14 +1,86 @@
-<html>
-  <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button with Icons</title>
+    <link rel="stylesheet" href="#">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<style>
 
-  </head>
-  <body>
-    <h1 color="red"><mark>COPERTINA</mark></h1>
-<p>Samuel Pirozzi</p> <a href="indice.html">INDICE</a>
-<img src="copertina1.jpeg">
+.button {
+    background-color: #150f49; /* Colore di sfondo */
+    border: none; /* Nessun bordo */
+    color: white; /* Colore del testo */
+    padding: 15px 32px; /* Padding interno (verticale orizzontale) */
+    text-align: center; /* Allineamento del testo */
+    text-decoration: none; /* Nessuna decorazione del testo */
+    display: inline-block; /* Permette di avere margini */
+    font-size: 16px; /* Dimensione del font */
+    margin: 4px 2px; /* Margini esterni */
+    transition-duration: 0.4s; /* Durata della transizione */
+    cursor: pointer; /* Cursore a mano */
+    border-radius: 15px; /* Angoli arrotondati */
+}
+
+    /* Effetto al passaggio del mouse */
+.button:hover {
+    background-color: lightblue; /* Colore di sfondo al passaggio */
+    color: black; /* Colore del testo al passaggio */
+    border: 2px solid #150f49; /* Bordo verde al passaggio */
+    text-align: center;
+}
+
+.button-container {
+    display: flex; /* Use flexbox for the button container */
+    justify-content: center; /* Center buttons inside the container */
+    margin-top: 20px; /* Optional: space from the top */
+}
+    body {
+    background-color:rgb(143, 232, 242);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+            display: flex;
+            align-items: flex-start; /* Allinea il contenuto in alto */
+            justify-content: left; /* Centra orizzontalmente */
+            font-family: Georgia, 'Times New Roman', Times, serif;
+
+        }
+        .img{
+            text-align: right;
+        }
+    
+
+</style>
+</head> 
+  
+<body> 
+
+    <div class="button-container">
+
+
+        <a href="indice.html" class="button copertina-button">
+            <i class="fas fa-book"></i> INDICE
+
+        </a>
+    </div> 
+         
+    <h1 style="background-color: #374896;text-align: center;color: white;">COPERTINA </h1>
+    
+</div>
+    <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;">Samuel Roberto Pirozzi</h1>
+    <img src="copertina1.jpeg">
+   
  
 
-  </body>
+    
+
+
+    </div>
+</body>
 </html>
-
-
