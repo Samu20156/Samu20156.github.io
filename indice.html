@@ -1,1 +1,81 @@
-questo è l'indice
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>libro d</title>
+    <link rel="stylesheet" href="#">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<style>
+.button {
+    background-color: #150f49; /* Colore di sfondo */
+    border: none; /* Nessun bordo */
+    color: white; /* Colore del testo */
+    padding: 15px 32px; /* Padding interno (verticale orizzontale) */
+    text-align: center; /* Allineamento del testo */
+    text-decoration: none; /* Nessuna decorazione del testo */
+    display: inline-block; /* Permette di avere margini */
+    font-size: 16px; /* Dimensione del font */
+    margin: 4px 2px; /* Margini esterni */
+    transition-duration: 0.4s; /* Durata della transizione */
+    cursor: pointer; /* Cursore a mano */
+    border-radius: 15px; /* Angoli arrotondati */
+}
+
+    /* Effetto al passaggio del mouse */
+.button:hover {
+    background-color: lightblue; /* Colore di sfondo al passaggio */
+    color: black; /* Colore del testo al passaggio */
+    border: 2px solid #150f49; /* Bordo verde al passaggio */
+    text-align: center;
+}
+
+.button-container {
+    display: flex; /* Use flexbox for the button container */
+    justify-content: center; /* Center buttons inside the container */
+    margin-top: 20px; /* Optional: space from the top */
+}
+    body {
+    background-color:rgb(143, 232, 242);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+     .indice{
+        font-size: 20px;
+     }
+     mark{
+         background-color: rgb(23, 66, 91);
+         color: white;
+     }
+
+
+</style>
+<body>
+    <div class="button-container">
+        <a href="capitolo 1.html" class="button home-button">
+            <i class="fas fa-book"></i>CAPITOLO 1
+        </a>
+        <a href="copertina.html" class="button home-button">
+            <i class="fas fa-book"></i>COPERTINA
+
+        </a>
+
+        <a href="capitolo 2.html" class="button home-button">
+            <i class="fas fa-book"></i>CAPITOLO 2
+
+        </a>
+    </div>
+    <div class="indice">
+    <h1 style="background-color: #374896;text-align: center;color: white;">INDICE </h1>
+    <h1><mark>CAPITOLO 1</mark></h1>
+    <p>1: cos'è l'informatica</p>
+    <p>2: comportamenti in rete</p>
+    <p>3: la scienza</p>
+    <p>4: Aspetti positivi e negativi</p>
+    <h1><mark>CAPITOLO 2</mark></h1>
+    <p>1: componenti: Hardware e Software</p>
+
+
+    </div>
+</body>
+</html>
