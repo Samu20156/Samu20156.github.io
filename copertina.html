@@ -1,84 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Copertina</title>
     <link rel="stylesheet" href="#">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-<style>
+    <style>
+        .button {
+            background-color: #150f49;
+            
+            border: none;
+            
+            color: white;
+            
+            padding: 15px 32px;
+           
+            text-align: center;
+           
+            text-decoration: none;
+            
+            display: inline-block;
+           
+            font-size: 16px;
+           
+            margin: 4px 2px;
+            
+            transition-duration: 0.4s;
+           
+            cursor: pointer;
+            border-radius: 20px;
+        }
 
-.button {
-    background-color: #150f49; /* Colore di sfondo */
-    border: none; /* Nessun bordo */
-    color: white; /* Colore del testo */
-    padding: 15px 32px; /* Padding interno (verticale orizzontale) */
-    text-align: center; /* Allineamento del testo */
-    text-decoration: none; /* Nessuna decorazione del testo */
-    display: inline-block; /* Permette di avere margini */
-    font-size: 16px; /* Dimensione del font */
-    margin: 4px 2px; /* Margini esterni */
-    transition-duration: 0.4s; /* Durata della transizione */
-    cursor: pointer; 
-    border-radius: 20px; 
-}
 
-   
-.button:hover {
-    background-color: lightblue; x
-    color: black; 
-    border: 2px solid #150f49; 
-    text-align: center;
-}
+        .button:hover {
+            background-color: lightblue;
+            color: black;
+            border: 2px solid #150f49;
+            text-align: center;
+        }
 
-.button-container {
-    display: flex; 
-    justify-content: center; 
-    margin-top: 20px; 
-}
-    body {
-    background-color:rgb(143, 232, 242);
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    }
-    body{
-        margin: 0;
-        padding: 0;
-    }
-    .container {
+        .button-container {
             display: flex;
-            align-items: flex-start; /* Allinea il contenuto in alto */
-            justify-content: left; /* Centra orizzontalmente */
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        body {
+            background-color: rgb(143, 232, 242);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            align-items: flex-start;
+            justify-content: left;
             font-family: Georgia, 'Times New Roman', Times, serif;
 
         }
-        
-        
 
-</style>
-</head> 
-  
-<body> 
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 200px;
+            background-color: #f1f1f1;
+            border: 3px solid #150f49;
 
+        }
+
+        li a {
+            background-color: #150f49;
+            display: block;
+            color: #ffffff;
+            padding: 8px 16px;
+            text-decoration: none;
+            padding: 30px;
+
+
+        }
+
+
+        li a:hover {
+            background-color: lightblue;
+            color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+
+<body>
     <div class="button-container">
 
 
+        <a href="copertina.html" class="button copertina-button">
+            <i class="fas fa-book"></i> COPERTINA
+
+        </a>
         <a href="indice.html" class="button copertina-button">
             <i class="fas fa-book"></i> INDICE
 
         </a>
-    </div> 
-         
+        <a href="capitolo 1.html" class="button copertina-button">
+            <i class="fas fa-book"></i> CAPITOLO 1
+
+        </a>
+        <a href="capitolo 2.html" class="button copertina-button">
+            <i class="fas fa-book"></i> CAPITOLO 2
+
+        </a>
+        <a href="capitolo 3.html" class="button copertina-button">
+            <i class="fas fa-book"></i> CAPITOLO 3
+
+        </a>
+        <a href="capitolo 4.html" class="button copertina-button">
+            <i class="fas fa-book"></i> CAPITOLO 4
+
+        </a>
+    </div>
+
     <h1 style="background-color: #374896;text-align: center;color: white;">COPERTINA </h1>
-    
-</div>
+
+    </div>
     <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;">Samuel Roberto Pirozzi</h1>
     <img src="copertina1.jpeg" style="width: 500px;margin-right: 50%;border: 10px solid #150f49;">
-   
- 
 
-    
+
+
+
 
 
     </div>
 </body>
+
 </html>
