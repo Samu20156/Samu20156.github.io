@@ -7,9 +7,10 @@
 </head>
 <body>
     <style>
+        
     .button {
-        background-color: #150f49; /* Colore di sfondo */
-        border: none; /* Nessun bordo */
+        background-color: #ff06d5; /* Colore di sfondo */
+        border: solid 2px rgb(102, 50, 116); /* Nessun bordo */
         color: white; /* Colore del testo */
         padding: 15px 32px; /* Padding interno (verticale orizzontale) */
         text-align: center; /* Allineamento del testo */
@@ -24,9 +25,9 @@
     
         /* Effetto al passaggio del mouse */
     .button:hover {
-        background-color: lightblue; /* Colore di sfondo al passaggio */
-        color: black; /* Colore del testo al passaggio */
-        border: 2px solid #150f49; /* Bordo verde al passaggio */
+        background-color: rgb(102, 50, 116); /* Colore di sfondo al passaggio */
+        color: white; /* Colore del testo al passaggio */
+        border: 2px solid #ff06d5; /* Bordo verde al passaggio */
         text-align: center;
     }
     
@@ -36,15 +37,16 @@
         margin-top: 20px; /* Optional: space from the top */
     }
         body {
-        background-color:rgb(143, 232, 242);
+        background-color:rgb(0, 0, 0);
         font-family:Georgia, 'Times New Roman', Times, serif;
+        color: white;
         }
         .evidenziatore-testo {
           font-size: 20px;
     
         }
         mark{
-            background-color: rgb(23, 66, 91);
+            background-color: #ff06d5;
             color: white;
             
         }
@@ -52,7 +54,8 @@
             font-size: 25px;
         }
        
-    
+   
+
     
     
     </style>
@@ -77,9 +80,12 @@
                 <a href="capitolo 4.html" class="button home-button">
                     <i class="fas fa-book"></i>CAPITOLO 4
                 </a>
+                <a href="capitolo 5.html" class="button home-button">
+                    <i class="fas fa-book"></i>CAPITOLO 5
+                </a>
                 </div>
 
-                <h1 style="background-color: #374896;text-align: center;color: white;">INDICE </h1>
+                <h1 style="background-color: #ff06d5;text-align: center;color: white;">INDICE </h1>
       <h1><mark>CODICE ASCII</mark></h1>
       <p> il computer lavora con solo informazioni con i numeri, quindi anche i numeri alfabetici devono essere espressi in codici numerici.
         <br>
@@ -103,21 +109,58 @@
     
   
     <h1><mark>CODIFICHE AUDIO<mark></h1>
-    <p> le codifiche audio sono utilizzate per trasformare i suoni in dati digitali.</p>
-    <p><mark> possono essere:</mark></p>
-    <p>1: lossless</p>
-    <p>2: lossy</p>
-    <p> <mark>per far uscire l'audio si possono usare diversi hardware e formati che sono :</mark></p>
-    <h3><mark>FORMATI</mark></h3>
-    <p>1: mp3= è il risultato di un file audio dove vengono escluse delle componenti acustiche che non si possono sentire</p>
-    <p>2: wav= è un formato di tipo lineare cioè che non è compresso ed è usato per la registrazione e la riproduzione di file audio</p>
-    <p>3: ogg= è un formato contenitore lbero per il flusso di bit e aundio e video</p>
-    <p>4: flac= serve per memorizzare bitstream audio si PC.</p>
-    <h3><mark>hardware</mark></h3>
-    <p> 1: altoparlanti</p>
-    <p> 2: cuffie</p>
-    <p> 3: microfono</p>
-    <p> 4: speaker</p>
+    <p>Le codifiche audio (o formati audio) sono metodi per rappresentare digitalmente i segnali sonori. Servono a trasformare un suono analogico (come una voce o una musica) in un formato digitale che possa essere salvato, trasmesso, o elaborato da dispositivi elettronici come computer, smartphone o lettori multimediali.</p>
+    <p><mark>Le codifiche audio si suddividono in base a due criteri principali:</mark></p>
+    <h2>1. Compressione</h2>
+🔸 Non compresse (lossless)
+<p>Conservano tutti i dati originali del suono.</p>
+
+<p>Qualità altissima, ma occupano molto spazio.</p>
+
+<p>Esempi:</p>
+
+<p>PCM (Pulse Code Modulation) → usato nei CD audio</p>
+
+<p>WAV (Waveform Audio File Format)</p>
+
+<p>WAV (Waveform Audio File Format)</p>
+
+<p>🔸 Compresse senza perdita di dati (lossless)
+Compressione senza perdita di qualità, ma con file più piccoli rispetto a quelli non compressi.</p>
+
+<p>Esempi:</p>
+
+<p>FLAC (Free Lossless Audio Codec)</p>
+
+<p>ALAC (Apple Lossless Audio Codec)</p>
+
+<p>APE (Monkey's Audio)</p>
+
+<p>🔸 Compresse con perdita di dati (lossy)
+Eliminano alcune informazioni sonore per ridurre le dimensioni del file.</p>
+
+<p>Qualità leggermente ridotta, ma molto più efficienti.</p>
+
+<p>Esempi:</p>
+
+<p>MP3</p>
+
+<p>AAC (Advanced Audio Coding)</p>
+<p>OGG Vorbis</p>
+
+<p>WMA (Windows Media Audio)</p>
+
+</p>
+   <h2>2. Formato del contenitore</h2>
+<p>Oltre al tipo di compressione, i file audio possono essere incapsulati in formati contenitore, che possono includere anche metadati, copertine, tracce multiple, ecc.</p>
+<p>
+Esempi di contenitori:</p>
+
+<p>MP4 (che può contenere audio AAC)</p>
+
+<p>MKV (spesso usato per video ma può contenere anche audio)</p>
+
+<p>M4A (contenitore per AAC o ALAC)</p>
     <img src="t333h.jpeg" style="margin-left: 1000px;width: 400px;margin-top: -100px;">
     <h1><mark>CODIFICHE IMMAGINI</mark></h1>
     <p> le codifiche delle immagini sono utilizzate per trasformare le immagini in dati digitali.</p>
